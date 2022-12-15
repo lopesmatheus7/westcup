@@ -1,6 +1,9 @@
 @media screen and (max-width: 500px) {
     body{
         height: auto;
+        background-image: url(imagens/fundo1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 header{
         color: white;
@@ -31,16 +34,31 @@ nav{
     justify-content: flex-start;
     background-color: brown;
     height: auto;
-    width: 100vw;
-
 }
-main div.fundo1{
-    background-image: url(imagens/fundo1.jpg);
+main{
     height: 100vh;
-    background-size: cover;
 }
 footer{
     text-align: center;
     padding: 10px;
+    background-color: white;
+    height: 10px;
+}
+table{
+    background-color: white;
+    text-align: center;
+    margin: 30px auto;
+}
+td{
+    border: solid orange;
+    padding: 4px;
+}
+th{
+    background-color:darkgray;
+    border: solid darkorange;
+}
+caption{
+    font-size: 2em;
+    text-transform: uppercase;
 }
 }
