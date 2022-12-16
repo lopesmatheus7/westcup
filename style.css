@@ -93,7 +93,7 @@ article{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.651);
     font-size: 2em;
 }
-article{
+article.peneira{
     font-size: 0.8em;
     background-image: url(https://live.staticflickr.com/5612/31669460185_fe962af729_b.jpg);
     color: white;
@@ -105,4 +105,6 @@ article{
 .titulopeneira{
     font-size: 2.0em;
 }
+
+
 }
