@@ -4,10 +4,11 @@
         background-image: url(imagens/fundo1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
 }
 header{
         color: white;
-        background: orange;
+        background-image: linear-gradient(to bottom, orange, red);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.7em;
         text-align: center;
@@ -15,9 +16,13 @@ header{
         padding-top: 10px;
         height: auto;
 }
+h1{
+    padding: 20px;
+}
 h4{
         font-size: 0.7em;
         margin: 10px;
+        padding: 10px;
 }
 
 a{
@@ -28,6 +33,14 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 10px auto;
+}
+a:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
+}
+.afiliados{
+    background-color: white;
+    color: black;
 }
 nav{
     display: flex;
@@ -46,19 +59,32 @@ footer{
 }
 table{
     background-color: white;
-    text-align: center;
     margin: 30px auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.616);
 }
 td{
-    border: solid orange;
+    border: solid rgb(110, 110, 110);
     padding: 4px;
 }
 th{
     background-color:darkgray;
-    border: solid darkorange;
+    border: solid darkgray;
 }
 caption{
     font-size: 2em;
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    padding: 10px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+article{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
 }
 }
