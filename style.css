@@ -218,4 +218,19 @@ article.peneira{
 img{
     border-radius: 20px;
 }
+.campeoes , .pcampeoes{
+    font-size: 1em;
+    color: black;
+
+}
+.logocampeoao{
+    width: 40px;
+    height: auto;
+}
+.titulocampeos ,h1, p{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
 }
