@@ -45,7 +45,7 @@ a{   color: white;
 header h1{
     padding-bottom: 10px;
 }
-header h4{
+header{
     margin-bottom: 20px;
 }
 .btn-pisca {
@@ -85,12 +85,14 @@ header{
 h1{
     padding: 20px;
 }
-h4{
-        font-size: 0.7em;
-        margin: 10px;
+h2{
+    padding: 30px;
+}
+.btn-pisca{
+        font-size: 1em;
+        margin-bottom: 40px;
         padding: 10px;
 }
-
 a{
     color: white;
     background-color: brown;
@@ -245,5 +247,30 @@ img{
     text-align: center;
     font-size: 2em;
     margin-bottom: 40px;    
+}
+.parceiro{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: auto;
+}
+.barraparceiro{
+    background-color: #fff;
+    padding: 30px;
+}
+iframe{
+    width: 800px;
+    height: auto;
+}
+.h1noticias{
+    color: rgb(0, 0, 0);
+}
+#noticia{
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-style: double;
+    border: solid black;
+    
 }
 }
