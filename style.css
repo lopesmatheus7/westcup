@@ -227,10 +227,16 @@ img{
     width: 40px;
     height: auto;
 }
-.titulocampeos ,h1, p{
+.titulocampeos ,h1{
     color: white;
     text-align: center;
     font-size: 2em;
     margin-bottom: 40px;
+}
+.paragrafocampeao{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;    
 }
 }
