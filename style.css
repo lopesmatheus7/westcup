@@ -24,7 +24,7 @@ header{
     padding-top: 10px;
     height: auto;
 }
-nav{
+nav.superior{
     display: flex;
     justify-content: flex-start;
     background-color: brown;
@@ -66,7 +66,8 @@ header{
     color: black;
     text-shadow: 2px 1px 1px rgba(255, 166, 0, 0.555);
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
+    margin: 50px auto;
 }
 img#noticia{
     width: 300px;
@@ -76,10 +77,12 @@ img#noticia{
     margin: 10px;
 }
 p{
-    color: #fff;
-    font-size: 2em;
+    max-width: 600px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
     text-align: center;
-    line-height: 80px;
+    line-height: 30px;
+    margin: 0 auto;
 }
 img.noticia{
     width: 300px;
@@ -87,6 +90,7 @@ img.noticia{
     padding: 0px;
     border: solid orange;
     text-align: center;
+    margin: 20px auto;
 }
 table{
     width: 800px;
@@ -100,7 +104,7 @@ table{
 }
 table tr, caption{
     border: solid black;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     
     
@@ -119,7 +123,27 @@ article{
     padding: 40px;
     font-size: 1.5em;
     box-shadow: 2px 2px 2px 2px black;
+    margin-top: -20px;
 }
+img.parceiro{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: auto;
+    margin: auto;
+}
+footer{
+    background-color: white;
+    padding-top: 30px;
+
+}
+.rodape{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+}
+
 
 @media screen and (max-width: 700px) {
     body{
@@ -138,7 +162,7 @@ header{
         background-size: cover;
         font-size: 1.7em;
         text-align: center;
-        margin: 0 auto;
+        margin:  auto;
         padding-top: 10px;
         height: auto;
 }
@@ -171,11 +195,10 @@ a:hover{
     color: black;
     font-size: 0.7em;
 }
-nav{
+nav.superior{
     display: flex;
     justify-content: flex-start;
     background-color: brown;
-    height: auto;
 }
 main{
     height: auto;
@@ -187,11 +210,13 @@ footer{
     background-color: white;
 }
 table{
-    background-color: white;
-    margin: 20px auto;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.616);
-    border-radius: 20px;
-    color: black;
+    width: auto;
+    height: auto;
+}
+table tr, caption{
+    border: solid black;
+    font-size: 1em;
+    text-align: center;
 }
 td{
     border: solid rgb(0, 0, 0);
@@ -214,11 +239,16 @@ img{
 }
 article{
     background-color: rgba(255, 255, 255, 0.726);
+    color: black;
     text-align: center;
     padding: 40px;
     font-size: 1.5em;
     box-shadow: 2px 2px 2px 2px black;
-    
+    margin-top: 0px;
+}
+.taba{
+    width: 20px;
+    height: 20px;
 }
 .titulopeneira{
     color: white;
@@ -231,8 +261,11 @@ article.peneira{
     background-image: url(https://live.staticflickr.com/5612/31669460185_fe962af729_b.jpg);
     color: rgb(0, 0, 0);
 }
-.peneira h1{
+.peneira{
     color: black;
+}
+.tituloprincipal{
+    color:white
 }
 .fundoartigo{
     background-color: rgba(255, 255, 255, 0.466);
@@ -297,7 +330,7 @@ img{
     height: auto;
 }
 .titulocampeos ,h1{
-    color: white;
+    color: rgb(252, 252, 252);
     text-align: center;
     font-size: 2em;
     margin-bottom: 40px;
@@ -342,4 +375,12 @@ img{
     height: 30px;
     margin-bottom: 50px;
 }
+.rodape{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+}
+
+
 }
