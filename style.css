@@ -125,6 +125,15 @@ article{
     box-shadow: 2px 2px 2px 2px black;
     margin-top: -20px;
 }
+.articleCampeao{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: black;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-top: 0px;
+}
 img.parceiro{
     display: flex;
     align-items: center;
@@ -142,6 +151,51 @@ footer{
     display: flex;
     justify-content: flex-start;
     height: auto;
+}
+.logocampeoao{
+    width: 60px;
+    height: auto;
+    border-radius: 100px;
+}
+.pcampeoes{
+    padding: 5px;
+    text-align: left;
+    display: inline;
+}
+.campeoes{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.paragrafocampeao{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 40px;    
+}
+.tituloIncricoes{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+.formulario, p.formulario{
+    display: block;
+    margin: 30px auto;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+#nome{
+    display: block;
+    margin: 30px auto;
+    width: 450px;
+    height: 40px;
+}
+.input{
+    display: block;
+    margin: 30px auto;
+    width: 450px;
+    height: 40px;
 }
 
 
@@ -335,6 +389,12 @@ img{
     font-size: 2em;
     margin-bottom: 40px;
 }
+.tituloIncricoes{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
 .paragrafocampeao{
     color: white;
     text-align: center;
@@ -381,6 +441,10 @@ img{
     justify-content: flex-start;
     height: auto;
 }
-
-
 }
+
+
+
+
+/* FINANCEIRO */
+
